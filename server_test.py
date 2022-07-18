@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template, redirect, flash
+from flask import Flask, request, render_template, flash
 import pickle
 from sklearn.preprocessing import StandardScaler
 import numpy as np
