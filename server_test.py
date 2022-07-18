@@ -7,7 +7,7 @@ import numpy as np
 app = Flask(__name__)
 
 app.config['SECRET_KEY'] = 'b50156bec638f17e906e7036c0e45262'
-app.config['DEBUG'] = Fals
+app.config['DEBUG'] = False
 
 ss = StandardScaler()
 
